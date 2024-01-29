@@ -1,0 +1,103 @@
+/* Add this to your style.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+   .tombol {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:28%;
+    margin-top: -44px;
+    position: absolute;
+  }
+  
+  .tombol1 {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:23%;
+    margin-top: -44px;
+    position: absolute;
+  }
+  
+  #list {
+    margin-top: 20px;
+  }
+  
+  .listItemDetail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .listItemDetail input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .listItemDetail span {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .listItemDetail input:checked ~ span {
+    text-decoration: line-through red;
+  }
+  
+  
+  
+  
